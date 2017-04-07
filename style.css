@@ -6,6 +6,10 @@ li {
   list-style: none;
 }
 
+p {
+  font-family: Titillium Web;
+}
+
 
 
 
@@ -15,12 +19,14 @@ a {
 
 header {
   width: 100%;
-  background-color: #009FD9; }
-
-
-header section {
-  width: 90%;
+  background-color: #009FD9;
+  position: sticky;
+  top: 0;
+  margin-top: 0;
 }
+
+
+
 
 
 
@@ -79,4 +85,62 @@ nav a:hover {
   text-align: center;
   position: relative;
   left :-30px;
+}
+
+main {
+  width: 100%;
+}
+.accueil-interieur,.accueil-enterree, .accueil-horssol, .accueil-spa {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  box-shadow: 2px 2px 2px #009FD9;
+  padding: 10px;
+  margin-bottom: 20px;
+
+
+}
+
+h3 {
+  text-align: center;
+  font-family: Pavanam;
+}
+
+section img {
+  width : 250px;
+  display: block;
+  margin: auto;
+
+}
+
+.realisation {
+  display: none;
+}
+
+video {
+  display: none;
+}
+
+footer {
+  position: relative;
+  background-color: #0090D2;
+  margin-top: 20px;
+}
+
+address, footer section {
+  display: inline-block;
+  /*vertical-align: top;*/
+  text-align: center;
+  font-size: 0.8em;
+}
+
+address {
+  padding-left : 10px;
+}
+
+
+footer section {
+  position: relative;
+  left: 100px;
+
 }
