@@ -72,6 +72,7 @@ nav ul li:hover ul {
 
 nav a {
   color: black;
+  font-family: 'Lobster'
 }
 
 nav a:hover {
@@ -122,9 +123,10 @@ video {
 }
 
 footer {
-  position: relative;
+
   background-color: #0090D2;
   margin-top: 20px;
+  height: 90px;
 }
 
 address, footer section {
@@ -132,15 +134,75 @@ address, footer section {
   /*vertical-align: top;*/
   text-align: center;
   font-size: 0.8em;
-}
-
-address {
-  padding-left : 10px;
+  width: 47%
 }
 
 
-footer section {
+/*********************************************************Tablette***************************/
+
+@media (min-width : 750px) {
+
+  header {
+    position: relative;
+  }
+
+  header input {
+    display: inline-block;
+    position: absolute;
+    right :20px;
+    top : 30px;
+  }
+
+  .realisation {
+    display: block;
+
+    width: 100%;
+
+  }
+
+  .realisation figure:nth-child(4),.realisation figure:nth-child(5) {
+    display: none;
+
+  }
+
+  .realisation figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    text-align: center;
+    margin-left: 2.9%;
+
+  }
+
+  .realisation img {
+    width : 200px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .accueil-interieur, .accueil-enterree, .accueil-horssol, .accueil-spa {
+    width : 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 6%;
+
+  }
+
+  .accueil-interieur img,.accueil-enterree img, .accueil-horssol img, .accueil-spa img {
+
+    width : 150px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+.accueil-spa  {
   position: relative;
-  left: 100px;
+  bottom : 23px;
+}
+
+
+
+
+
 
 }
