@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #009FD9; }
+
+
+header section {
+  width: 90%;
+}
+
+
+
+
+h1{
+
+  font-family: 'Lobster', cursive;
+  padding-top: 10px;
+  padding-left : 10px;
+
+}
+
+
+
+
+h2 {
+  font-size: 0.9em;
+  font-family: 'Lobster', cursive;
+  padding-left : 10px;
+  color: white;
+}
+
+header input {
+  display: none;
+}
+
+li ul {
+  display: none;
+
+}
+
+nav ul li:focus ul {
+
+  display: block;
+}
+
+nav ul li:hover ul {
+
+  display: block;
+  position: relative;
+  left: -20px;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+
+}
+
+
+#menu {
+  width:100%;
+  text-align: center;
+  position: relative;
+  left :-30px;
+}
