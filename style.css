@@ -216,6 +216,13 @@ thead, th,td,tr {
   bottom : 23px;
 }
 
+/**********************************tarifs.html********************************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width : 100%
+}
 
 }
 
@@ -270,6 +277,33 @@ thead, th,td,tr {
    right : 13px;
 
  }
+
+
+ /**********************************tarifs.html********************************/
+
+
+ footer {
+position: relative;
+bottom: 0;
+   width : 100%
+ }
+
+table{
+  width: 75%;
+  position: relative;
+  right : 115px;
+  font-size: 1em;
+}
+.table-int h3, .table-hors h3, .table-ent h3{
+  width: 75%;
+}
+
+video {
+  display: block;
+  margin: auto;
+  position: relative;
+  right: 100px;
+}
 
 
 }
