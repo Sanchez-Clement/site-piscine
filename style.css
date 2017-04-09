@@ -176,6 +176,15 @@ width: 200px;
 
  }
 
+ form {
+   background-color: rgba(0, 144, 210, 1);
+   width: 80%;
+   margin: auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px #0090D2 ;
+ }
+
  Iframe {
    width: 80%;
    margin: auto;
@@ -319,7 +328,7 @@ bottom: 0;
    width : 100%
  }
 
-table{
+table, form, iframe{
   width: 75%;
   position: relative;
   right : 115px;
@@ -335,6 +344,22 @@ video {
   position: relative;
   right: 100px;
 }
+
+/******************************contact.html*******************************/
+
+.carte h3 {
+  width: 80%;
+  margin-top : 50px;
+}
+
+iframe {
+  height: 500px;
+
+}
+
+.carte {
+margin-bottom: 70px;}
+
 
 
 }
