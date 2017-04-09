@@ -22,7 +22,7 @@ header {
   background-color: #009FD9;
   position: sticky;
   top: 0;
-  margin-top: 0;
+  margin-top: -20px;
 }
 
 
@@ -136,6 +136,22 @@ address, footer section {
   font-size: 0.8em;
   width: 47%
 }
+
+/**********************************tarifs.html********************************/
+table {
+  width : 95%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+thead, th,td,tr {
+  border: 2px solid #0090D2  ;
+
+  text-align: center;
+  font-size: 0.9em;
+}
+
 
 
 /*********************************************************Tablette***************************/
