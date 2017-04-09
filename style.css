@@ -152,6 +152,37 @@ thead, th,td,tr {
   font-size: 0.9em;
 }
 
+/********************************contact.html *******************************/
+
+label, input {
+  display: inline-block;
+
+}
+
+form div {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+ form input {
+   width: 200px;
+ }
+
+ form button {
+display: block;
+margin: auto;
+width: 200px;
+
+ }
+
+ Iframe {
+   width: 80%;
+   margin: auto;
+   display: block;
+ }
+
+
 
 
 /*********************************************************Tablette***************************/
