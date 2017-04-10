@@ -289,36 +289,27 @@ footer {
   .accueil-interieur, .accueil-enterree, .accueil-horssol, .accueil-spa {
     width: 30%;
   }
+
  .accueil-interieur img,.accueil-enterree img, .accueil-horssol img, .accueil-spa img {
 
    width : 250px;
    height: 150px;
  }
- nav .material-icons {
-   display: none;
- }
 
-#menu ul {
-   display: inline-block;
-   width: 100%;
-   position: relative;
-   right : 34px;
- }
-
- nav ul li {
+ #menu li {
    display: inline-block;
    width: 30%;
    padding-bottom: 10px;
-
-
+ }
+ #menu ul{
+   display: block;
+   position: relative;
+   right: 20px;
  }
 
- nav ul li:hover {
-
-   position :relative;
-   right : 13px;
-
- }
+.material-icons {
+  color: #009FD9;
+}
 
 
 
