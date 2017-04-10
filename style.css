@@ -261,9 +261,9 @@ width: 200px;
 /**********************************tarifs.html********************************/
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width : 100%
+  position: relative;
+  top: 40px;
+  width : 100%;
 }
 
 }
