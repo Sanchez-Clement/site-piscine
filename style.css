@@ -142,6 +142,12 @@ table {
   margin-bottom: 30px;
 }
 
+caption {
+  font-family: Pavanam;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 thead, th,td,tr {
   border: 2px solid #0090D2  ;
 
@@ -323,9 +329,6 @@ table, form, iframe{
   position: relative;
   right : 115px;
   font-size: 1em;
-}
-.table-int h3, .table-hors h3, .table-ent h3{
-  width: 75%;
 }
 
 video {
