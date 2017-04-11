@@ -124,6 +124,8 @@ footer {
   background-color: #0090D2;
   margin-top: 20px;
   height: 90px;
+  /*position: absolute;
+  bottom: 0;*/
 }
 
 address, footer section {
@@ -265,7 +267,11 @@ width: 200px;
 }
 
 /**********************************tarifs.html********************************/
-
+video{
+  display:block;
+  width: 40%;
+  margin: auto;
+}
 footer {
   position: relative;
   top: 40px;
